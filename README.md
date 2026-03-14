@@ -91,12 +91,12 @@ pip install -r requirements.txt
 
 ```bash
 python generate_license.py ^
-  --blackbox-json-file D:\ComfyUICode\LockNodes\Test-LockNodes.json ^
-  --blackbox-node-id 26 ^
-  --password 10086 ^
+  --blackbox-json-file 工作流json文件路径 ^
+  --blackbox-node-id 黑盒编号（一个可不填） ^
+  --password 你的开发密码 ^
   --private-key-file private_key.pem ^
-  --machine-code e9...d171 ^
-  --expire-date 2026-03-15 ^
+  --machine-code 客户机器码 ^
+  --expire-date 2026-12-30 ^
   --output-file license.txt
 ```
 
