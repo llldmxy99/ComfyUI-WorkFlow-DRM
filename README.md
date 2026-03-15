@@ -1,4 +1,4 @@
-# ComfyUI-WorkFlow-DRM
+# ComfyUI-WorkFlow-DRM(Digital Rights Management)
 
 一个面向 ComfyUI 的工作流保护插件，用于把选中的节点打包为黑盒节点，并支持离线授权、到期控制与防时间回拨。
 
